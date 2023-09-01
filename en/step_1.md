@@ -4,7 +4,7 @@ This project will help you **discover** what the **micro:bit** can do.
 
 ### What you will make
 
-This project reminds you to be silly, have fun, and strike a pose! This could be after a long day at school, or as a way to cheer you and your friends up. You can program the micro:bit buttons to help you remember to have some silly fun.
+This project reminds you to make time to be silly, have fun, and strike a pose! This could be after a long day at school, or as a way to cheer you and your friends up. You can program the micro:bit buttons to help you remember to have some silly fun.
 
 In this project, you will make a **silly reminder**. 
 
@@ -71,7 +71,7 @@ Give your project the name `silly reminder` and click **Create**.
 
 <img src="images/new-project.png" alt="The name 'silly reminder' written in the Create a Project dialogue box." width="450"/>
 
-**Tip:** To make your project easier to find later, give your project a helpful name that relates to what you’re creating.
+**Tip:** To make your project easier to find later, give it a helpful name that relates to what you’re creating.
 
 --- /task ---
 
@@ -139,7 +139,7 @@ Well done! You've made the LEDs on the micro:bit light up!
 
 ### Choose some poses
 
-You will need to decide on silly faces or poses that you will make whenever you push a micro:bit button. Here are some ideas for poses:
+You will need to decide on some silly faces or poses that you will make whenever you push a micro:bit button. Here are some ideas for poses:
 
 + A big cheesy grin
 + Jumping jacks
@@ -196,7 +196,7 @@ From the <code style="background-color: #1E90FF">Basic</code> menu, drag the <co
 
 <div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:55%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_7Ugf5a3JXb81" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
-Click on each of the squares to draw your pose. 
+Click on the squares to draw your pose. Whites squares will be lit on the LED display. 
 
 In this example, we have drawn a smiley face as a silly pose.
 
@@ -235,7 +235,7 @@ Click **Duplicate** to make a copy of it.
 
 Place the duplicated <code style="background-color: #DC143C">set</code> block above the <code style="background-color: #1E90FF">show leds</code> block.
 
-Change the `0` to `10`.
+Change the `0` to `10` in the new block.
 
 <img src="images/duplicate-timer-variable.gif" alt="An animation showing the process of duplicating the set block." width="350"/>
 
@@ -363,7 +363,7 @@ After the countdown finishes, the value will be 0.
 
 You need a message to tell the user to change their silly pose.
 
-You will do this in the <code style="background-color: #00A4A6">else</code> section.
+You will do this by adding an <code style="background-color: #00A4A6">else</code> section to the <code style="background-color: #00A4A6">if</code> block.
 
 --- task ---
 
@@ -390,13 +390,13 @@ From the <code style="background-color: #E63022">Music</code> menu, drag a <code
 
 Place it below the <code style="background-color: #DC143C">change</code> block.
 
-Click the `Middle C` dropdown and a piano keys console will appear. 
+Click the `Middle C` drop-down menu and a piano keys console will appear. 
 
 Choose a tone for your timer. 
 
 We have selected `Middle A`.
 
-Click the <code style="background-color: #E63022">until done</code> dropdown and change it to <code style="background-color: #E63022">in background</code>.
+Click the <code style="background-color: #E63022">until done</code> drop-down menu and change it to <code style="background-color: #E63022">in background</code>.
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:95%;height:95%;" src="https://makecode.microbit.org/---codeembed#pub:_R4xU4T1CrbbX
 " allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
@@ -431,7 +431,7 @@ Click the <code style="background-color: #E63022">until done</code> dropdown and
 
 ### Upgrade your project
 
-You can upgrade your silly reminder by:
+You can upgrade your silly reminder project by:
 
 + Adding one more silly pose that shows when you press Buttons A and B together (`A+B`) 
 + Increase the amount of time between poses
